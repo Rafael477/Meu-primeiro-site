@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7a7a7a;
+    color: #333;
+    background: #000;
+}
+h1 {
+    
+    font-size: 2.5em;
+    text-align: center;
+    background-color: slategray;
+    -webkit-text-fill-color: aquamarine;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+h3 {
+    font-size: 1.4em;
+    text-align: center;
+    background-color: slategray;
+    -webkit-text-fill-color: aquamarine;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.lista{
+    color: #fff;
+    text-align: center;
+}
+h4 {
+    font-size: 1.2em;
+    text-align: center;
+    background-color: slategray;
+    -webkit-text-fill-color: aquamarine;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.contato {
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.meu-primeiro-paragrafo {
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+}
+.sobre-mim {
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 25px 0;
+}
+.projetos {
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 25px 0;
+    text-align: center;
+}
+.projeto-btn {
+    display: inline-block;
+    background: linear-gradient(90deg,#00F5FF, #0080FF);
+    color: #000;
+    padding: 20px 60px;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.4s;
+    margin: 45px 0;
+    position: absolute;
+    left: 50%;
+    height: -50%;
+    top: 50%;
+
+
+}
+
+.projeto-btn:hover {
+   transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 245, 255, 0.5);
+    background: linear-gradient(90deg,#3445dc, #00F5FF);
+    color: #fff;
+
+}
+
+.links {
+    text-align: center;
+    margin-top: 10px;
+}
