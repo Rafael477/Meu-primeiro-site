@@ -50,5 +50,30 @@ Feito com ❤️ por Rafael Silva
 ## 🗂️ Como clonar e usar
 ```bash
 git clone https://github.com/seu-usuario/meu-primeiro-site.git
-cd meu-primeiro-site
+```
+```bash
+cd meu-primeiro-site 
+```
+
+---
+
+---
+
+## ✅ **2. `.gitignore` ideal para site estático (HTML/CSS/JS)**
+
+```gitignore
+# Arquivos e pastas do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações do VS Code
+.vscode/
+
+# Logs ou arquivos temporários
+*.log
+
+# node_modules se você usar live-server ou npm em algum momento
+node_modules/
+```
+
 
